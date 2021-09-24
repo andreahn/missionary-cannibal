@@ -101,7 +101,7 @@ module fourBitReg (clck, reset, next_c, next_m, curr_c, curr_m);
 
 
 	module firstTermPrj (missionary_curr, cannibal_curr, direction, missionary_next, cannibal_next);
-		// same combinational logic as in term project 1
+		// same as in term project 1
 		input[1:0] missionary_curr;
 		input[1:0] cannibal_curr;
 		input direction;
